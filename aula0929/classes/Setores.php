@@ -15,7 +15,7 @@ class setores {
     }
 
     public function exibirSetores(){
-        $sql = 'SELECT * FROM cargos';
+        $sql = 'SELECT * FROM setor';
 
         $resultado = $this->ConexaoDB->query($sql);
 
